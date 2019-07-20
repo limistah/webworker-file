@@ -2,7 +2,7 @@
   "name": "webworker-file",
   "version": "0.0.0-development",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf ./dist",
     "test": "cross-env NODE_ENV=test jest --coverage && npm run typescript",
@@ -54,7 +54,7 @@
     "upload"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "react": ">= 16.8"
   },
